@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DiffTransfer
 
 <table class="audio-table" style="margin-bottom: 40px;">
@@ -286,3 +287,10 @@
 					</tr>
 				</tbody>
 			</table>
+=======
+---
+layout: default
+title: DiffTransfer
+---
+
+>>>>>>> origin/master
