@@ -1,6 +1,6 @@
 # DiffTransfer
 
-# Room transfer function reconstruction using complex-valued neural networks
+## TIMBRE TRANSFER USING IMAGE-TO-IMAGE DENOISING DIFFUSION IMPLICIT MODELS
 
 
 Accompanying code to the paper  _Timbre transfer using image-to-image denoising diffusion models_
