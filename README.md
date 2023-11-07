@@ -16,7 +16,7 @@ For any question, please write at [luca.comanducci@polimi.it](mailto:luca.comand
 - [Results Computation](#results-computation)
 
 ### Dependencies
-Tensorflow (>2.11), Librosa, pretty_midi, os, numpy
+Tensorflow (>2.11), librosa, pretty_midi, os, numpy, [essentia](https://pypi.org/project/essentia/), [frechet_audio_distance](https://pypi.org/project/frechet-audio-distance/)
 
 ### Data generation
 The model is trained using the StarNet dataset, freely available on Zenodo [link](https://zenodo.org/records/6917099)
