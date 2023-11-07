@@ -6,7 +6,7 @@
 Accompanying code to the paper  _Timbre transfer using image-to-image denoising diffusion implicit models_
 [[1]](#references). 
 
-For any question, please write at [luca.comanducci@polimi.it](luca.comanducci@polimi.it).
+For any question, please write at [luca.comanducci@polimi.it](mailto:luca.comanducci@polimi.it).
 
 
 
@@ -17,10 +17,12 @@ For any question, please write at [luca.comanducci@polimi.it](luca.comanducci@po
 
 ### Dependencies
 Tensorflow (>2.11), Librosa, pretty_midi, os, numpy
+
 ### Data generation
 The model is trained using the StarNet dataset, freely available on Zenodo [link](https://zenodo.org/records/6917099)
 
 ### Network training
+- audio_utils.py --> contains shared audio utilities and functions
 - params.py --> Contains parameters shared along scripts
 - network_lib_attention.py --> Contains Denoising Diffusion Implicit Model Implementation
 - DiffTransfer.py --> Actually runs the training, takes the following arguments:
@@ -30,6 +32,13 @@ The model is trained using the StarNet dataset, freely available on Zenodo [link
   - GPU: number of GPU, in case you have multiple ones
 
 ### Results computation
+
+- compute_eval_tracks_mixture.py
+- compute_eval_tracks_separate.py
+- compute_frechet.py
+- compute_jaccard.py
+- compute_listening_test_results.py
+- preprocess_tracks_listening_test.py
 
 
 
