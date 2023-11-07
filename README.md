@@ -4,7 +4,7 @@
 
 
 Accompanying code to the paper  _Timbre transfer using image-to-image denoising diffusion models_
-[[1]](#references).
+[[1]](#references). For any question, write at [luca.comanducci@polimi.it](luca.comanducci@polimi.it)
 
 - [Dependencies](#dependencies)
 - [Data Generation](#data-generation)
