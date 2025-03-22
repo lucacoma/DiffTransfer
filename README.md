@@ -40,6 +40,21 @@ The model is trained using the StarNet dataset, freely available on Zenodo [link
 - compute_listening_test_results.py
 - preprocess_tracks_listening_test.py
 
+ If using this code please cite the following paper
+
+ @inproceedings{comanducci2023timbre,
+  author       = {Luca Comanducci and
+                  Fabio Antonacci and
+                  Augusto Sarti},
+  title        = {Timbre Transfer Using Image-to-Image Denoising Diffusion Implicit
+                  Models},
+  booktitle    = {Proceedings of the 24th International Society for Music Information
+                  Retrieval Conference, {ISMIR} 2023, Milan, Italy, November 5-9, 2023},
+  pages        = {257--263},
+  year         = {2023},
+}
+
+
 
 
 # References
